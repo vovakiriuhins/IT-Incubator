@@ -8,3 +8,6 @@ let hello = function(name, fn) {
     console.log(fn(name));
 };
 hello("Аня", age);
+
+
+
