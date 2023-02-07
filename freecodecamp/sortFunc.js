@@ -1,4 +1,4 @@
-let arr = [3, 5, 1, 4, 2];
+let arr = [2, 5, 11, 4, 22];
 
 let users = [
     {name: "Аня", age: 21},
@@ -26,6 +26,5 @@ return result;
 console.log(sort(users, function(A, B) {
     // подставляем массив
     return A.name > B.name;
-    //return A > B;
-    // < - убывание, > - возрастание 
+    // < - убывание, > - возрастание..
 }));
